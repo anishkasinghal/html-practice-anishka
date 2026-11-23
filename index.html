@@ -62,70 +62,69 @@
   </section>
   <footer class="footer" id="contacts">
     <a href="https://github.com/anishkasinghal" target="_blank">GITHUB</a>
-    
-<form class="contact-form">
+    <form class="contact-form">
     <!-- Name -->
-    <div class="form-group">
+      <div class="form-group">
         <label for="name">Your Name</label>
         <input 
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Enter your name"
-            required
-            minlength="3"
-            maxlength="50"
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+          minlength="3"
+          maxlength="50"
         >
-    </div>
-    <!-- Email -->
-    <div class="form-group">
+      </div>
+      <!-- Email -->
+      <div class="form-group">
         <label for="email">Email Address</label>
         <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email"
-            required
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
         >
-    </div>
-    <!-- Dropdown -->
-    <div class="form-group">
+      </div>
+      <!-- Dropdown -->
+      <div class="form-group">
         <label for="reason">Reason for contacting</label>
         <select id="reason" name="reason" required>
-            <option value="" disabled selected>Select a reason</option>
-            <option value="collaboration">Collaboration</option>
-            <option value="project">Project Enquiry</option>
-            <option value="freelance">Freelance Work</option>
-            <option value="other">Other</option>
+          <option value="" disabled selected>Select a reason</option>
+          <option value="collaboration">Collaboration</option>
+          <option value="project">Project Enquiry</option>
+          <option value="freelance">Freelance Work</option>
+          <option value="other">Other</option>
         </select>
-    </div>
-    <!-- Radio Buttons -->
-    <div class="form-group">
+      </div>
+      <!-- Radio Buttons -->
+      <div class="form-group">
         <p>Preferred Contact Method</p>
         <label>
-            <input type="radio" name="contact-method" value="email" required>
-            Email
+          <input type="radio" name="contact-method" value="email" required>
+          Email
         </label>
         <label>
-            <input type="radio" name="contact-method" value="phone">
-            Phone
+          <input type="radio" name="contact-method" value="phone">
+          Phone
         </label>
-    </div>
-    <!-- Message -->
-    <div class="form-group">
+      </div>
+      <!-- Message -->
+      <div class="form-group">
         <label for="message">Your Message</label>
         <textarea
-            id="message"
-            name="message"
-            placeholder="Tell me something..."
-            rows="5"
-            required
-            minlength="10"
-            maxlength="500"
+          id="message"
+          name="message"
+          placeholder="Tell me something..."
+          rows="5"
+          required
+          minlength="10"
+          maxlength="500"
         ></textarea>
-    </div>
-    <button type="submit">Send Message</button>
-</form>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
   </footer>
 </body>
 </html>
